@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
   <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="/assets/imgs/nficon2016.ico" type = "image/x-icon">
+  <link rel="shortcut icon" href="/assets/imgs/nficon2016.ico" type="image/x-icon">
   <title>NetFlexx</title>
 </head>
 
@@ -53,36 +53,149 @@
 
         <ul class="navbar-nav ml-auto text-light">
           <i class="mx-2 my-auto bi bi-search"></i>
-            <span class="mx-2 my-auto">KIDS</span>
+          <span class="mx-2 my-auto">KIDS</span>
           <i class="bi bi-bell-fill mx-2 my-auto "></i>
-          <img class="mx-2 my-auto" src="./assets/imgs/NetflixLucifer.png" alt="Account_logo" />
+          <img class="img-thumbnail rounded-2 border border-0 p-0 mx-2 my-auto " src="./assets/imgs/NetflixLucifer.png"
+            alt="Account_logo" />
         </ul>
 
       </div>
     </div>
   </nav>
   <!-- END nav bar -->
- 
+
   <main class="bg-dark text-light">
-     <!-- Genere filter -->
-    <div class="d-flex my-4 w-100">
+
+    <div class="d-flex my-4">
       <h2 class="mx-5">TV Shows</h2>
-      <div class="dropdown" id="generi">
-        <button class="btn dropdown-toggle bg-dark text-light border-light" type="button" data-toggle="dropdown" aria-expanded="false" >
+
+      <div class="dropdown" id="content_genre">
+        <a class="btn btn-secondary dropdown-toggle rounded-0 bg-dark border-light" href="#" role="button"
+          data-bs-toggle="dropdown" aria-expanded="false">
           Generi
-        </button>
-        <div class="dropdown-menu bg-dark border-light">
-          <a class="dropdown-item text-light" href="#generi_Azione">Azione</a>
-          <a class="dropdown-item text-light" href="#generi_Commedia">Commedia</a>
-          <a class="dropdown-item text-light" href="#generi_Horror">Horror</a>
-          <a class="dropdown-item text-light" href="#generi_Animazione">Animazione</a>
-          <a class="dropdown-item text-light" href="#generi_Romantici">Romantici</a>
+        </a>
+
+        <ul class="dropdown-menu bg-dark border-light rounded-0">
+          <li><a class="dropdown-item text-light" href="#generi_Azione">Azione</a></li>
+          <li><a class="dropdown-item text-light" href="#generi_Commedia">Commedia</a></li>
+          <li><a class="dropdown-item text-light" href="#generi_Horror">Horror</a></li>
+          <li><a class="dropdown-item text-light" href="#generi_Animazione">Animazione</a></li>
+          <li><a class="dropdown-item text-light" href="#generi_Romantici">Romantici</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <!-- TRENDING NOW -->
+    <nav class="navbar bg-dark">
+      <div class="container-fluid px-4 py-2">
+        <span class="navbar-text text-white fs-5 fw-bold">
+          <h3 class="my-3">Trending now</h3>
+        </span>
+      </div>
+    </nav>
+
+    <section class="slider card-row bg-dark py-4">
+      <div id="trendingNow" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+          <!-- I carousel -->
+          <div class="carousel-item active">
+
+            <div class="row justify-content-evenly flex-nowrap">
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/1.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/2.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/3.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/4.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/5.png" class="img-fluid w-100" alt="...">
+              </div>
+
+            </div>
+          </div>
+          <!-- II carousel -->
+          <div class="carousel-item active">
+
+            <div class="row justify-content-evenly flex-nowrap">
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/1.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/2.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/3.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/4.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">
+                <img src="./assets/imgs/movies/5.png" class="img-fluid w-100" alt="...">
+              </div>
+
+            </div>
+          </div>
+          <!-- III carousel -->
+          <div class="carousel-item active">
+
+            <div class="row justify-content-evenly flex-nowrap">
+              <div class="col-2 card border-0 rounded-0 p-0">                
+                <img src="./assets/imgs/movies/6.png" class="img-fluid w-100" alt="...">     
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">                
+                <img src="./assets/imgs/movies/7.png" class="img-fluid w-100" alt="...">     
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">                
+                <img src="./assets/imgs/movies/8.png" class="img-fluid w-100" alt="...">     
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">                
+                <img src="./assets/imgs/movies/9.png" class="img-fluid w-100" alt="...">     
+              </div>
+
+              <div class="col-2 card border-0 rounded-0 p-0">                
+                <img src="./assets/imgs/movies/10.png" class="img-fluid w-100" alt="...">     
+              </div>
+
+            </div>    
         </div>
+        </div>
+        <!-- TRENDING NOW buttons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#trendingNow" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#trendingNow" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
 
       </div>
 
-    </div>
+    </section>
 
+    <!-- WATCH IT AGAIN -->
+
+    <!-- NEW RELEASES -->
   </main>
 
   <script src="./bootstrap/js/bootstrap.bundle.js"></script>
