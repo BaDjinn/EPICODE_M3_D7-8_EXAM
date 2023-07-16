@@ -15,7 +15,7 @@
 <body>
   <!-- nav bar -->
   <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
-    <div class="container-fluid">
+    <div class="container-fluid me-5">
       <!-- LOGO -->
       <a class="navbar-brand" href="#">
         <img src="./assets/imgs/Netflix_Logo_RGB.png" alt="NetFlexx-logo">
@@ -51,11 +51,11 @@
         </ul>
 
 
-        <ul class="navbar-nav ml-auto text-light">
+        <ul class="navbar-nav ml-auto text-light mr-5">
           <i class="mx-2 my-auto bi bi-search"></i>
           <span class="mx-2 my-auto">KIDS</span>
           <i class="bi bi-bell-fill mx-2 my-auto "></i>
-          <img class="img-thumbnail rounded-2 border border-0 p-0 mx-2 my-auto " src="./assets/imgs/NetflixLucifer.png"
+          <img class="img-thumbnail rounded-2 border border-0 p-0 mx-2 my-auto" src="./assets/imgs/NetflixLucifer.png"
             alt="Account_logo" />
         </ul>
 
@@ -64,12 +64,11 @@
   </nav>
   <!-- END nav bar -->
 
-  <main class="bg-dark text-light">
+  <main class="bg-dark text-light px-4">
 
-    <div class="d-flex my-4">
-      <h2 class="mx-5">TV Shows</h2>
-
-      <div class="dropdown" id="content_genre">
+    <div class="d-flex w-100">
+      <h2 class="me-5 align-items-start">TV Shows</h2>
+      <div class="dropdown mx-2" id="content_genre">
         <a class="btn btn-secondary dropdown-toggle rounded-0 bg-dark border-light" href="#" role="button"
           data-bs-toggle="dropdown" aria-expanded="false">
           Generi
@@ -89,103 +88,91 @@
 
     <!-- TRENDING NOW -->
     <nav class="navbar bg-dark">
-      <div class="container-fluid px-4 py-2">
+      <div class="container-fluid px-0 py-2">
         <span class="navbar-text text-white fs-5 fw-bold">
           <h3 class="my-3">Trending now</h3>
         </span>
       </div>
     </nav>
 
-    <section class="slider card-row bg-dark py-4">
-      <div id="trendingNow" class="carousel slide" data-interval="false">
-        <div class="carousel-inner">
+    <section class="slider bg-dark py-4">
+      <div id="trendingNow" class="carousel slide" data-bs-wrap="false" data-interval="false">
+        <div class="carousel-inner mx-auto w-80">
           <!-- I carousel -->
           <div class="carousel-item active">
 
-            <div class="row justify-content-evenly flex-nowrap">
-              <div class="col-2 card border-0 rounded-0 p-0">
+            <div class="row justify-content-between flex-nowrap">
+              <!-- <div class="col card bg-dark border-0 rounded-0 p-0 w-80">              
+              </div> -->
+              <div class="col card border-0 rounded-0 p-0 mx-2 z-2">
                 <img src="./assets/imgs/movies/1.png" class="img-fluid w-100" alt="...">
               </div>
 
-              <div class="col-2 card border-0 rounded-0 p-0">
+              <div class="col card border-0 rounded-0 p-0 mx-2">
                 <img src="./assets/imgs/movies/2.png" class="img-fluid w-100" alt="...">
               </div>
 
-              <div class="col-2 card border-0 rounded-0 p-0">
+              <div class="col card border-0 rounded-0 p-0 mx-2">
                 <img src="./assets/imgs/movies/3.png" class="img-fluid w-100" alt="...">
               </div>
 
-              <div class="col-2 card border-0 rounded-0 p-0">
+              <div class="col card border-0 rounded-0 p-0 mx-2">
                 <img src="./assets/imgs/movies/4.png" class="img-fluid w-100" alt="...">
               </div>
 
-              <div class="col-2 card border-0 rounded-0 p-0">
+              <div class="col card border-0 rounded-0 p-0 mx-2">
                 <img src="./assets/imgs/movies/5.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card-prew border-0 rounded-0 p-0 mx-2">
+                <img src="./assets/imgs/movies/6.png" class="img-fluid w-100" alt="...">
               </div>
 
             </div>
           </div>
           <!-- II carousel -->
-          <div class="carousel-item active">
+          <div class="carousel-item">
 
             <div class="row justify-content-evenly flex-nowrap">
-              <div class="col-2 card border-0 rounded-0 p-0">
-                <img src="./assets/imgs/movies/1.png" class="img-fluid w-100" alt="...">
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">
-                <img src="./assets/imgs/movies/2.png" class="img-fluid w-100" alt="...">
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">
-                <img src="./assets/imgs/movies/3.png" class="img-fluid w-100" alt="...">
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">
-                <img src="./assets/imgs/movies/4.png" class="img-fluid w-100" alt="...">
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">
+              <div class="col card-prew-rev border-0 rounded-0 p-0 mx-2">
                 <img src="./assets/imgs/movies/5.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card border-0 rounded-0 p-0 mx-2">
+                <img src="./assets/imgs/movies/6.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card border-0 rounded-0 p-0 mx-2">
+                <img src="./assets/imgs/movies/7.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card border-0 rounded-0 p-0 mx-2">
+                <img src="./assets/imgs/movies/8.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card border-0 rounded-0 p-0 mx-2">
+                <img src="./assets/imgs/movies/9.png" class="img-fluid w-100" alt="...">
+              </div>
+
+              <div class="col card border-0 rounded-0 p-0 mx-2 z-2">
+                <img src="./assets/imgs/movies/10.png" class="img-fluid w-100" alt="...">
               </div>
 
             </div>
           </div>
-          <!-- III carousel -->
-          <div class="carousel-item active">
+          
 
-            <div class="row justify-content-evenly flex-nowrap">
-              <div class="col-2 card border-0 rounded-0 p-0">                
-                <img src="./assets/imgs/movies/6.png" class="img-fluid w-100" alt="...">     
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">                
-                <img src="./assets/imgs/movies/7.png" class="img-fluid w-100" alt="...">     
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">                
-                <img src="./assets/imgs/movies/8.png" class="img-fluid w-100" alt="...">     
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">                
-                <img src="./assets/imgs/movies/9.png" class="img-fluid w-100" alt="...">     
-              </div>
-
-              <div class="col-2 card border-0 rounded-0 p-0">                
-                <img src="./assets/imgs/movies/10.png" class="img-fluid w-100" alt="...">     
-              </div>
-
-            </div>    
+               
         </div>
-        </div>
+      
         <!-- TRENDING NOW buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#trendingNow" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <button class="carousel-control-prev z-1" type="button" data-bs-target="#trendingNow" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon d-none" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
 
-        <button class="carousel-control-next" type="button" data-bs-target="#trendingNow" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <button class="carousel-control-next z-1" type="button" data-bs-target="#trendingNow" data-bs-slide="next">
+          <span class="carousel-control-next-icon d-none" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
 

@@ -16,8 +16,6 @@
 
 main {
   min-height: 100vh;
-  padding-left: 5em;
-  padding-right: 5em;
   overflow-x: hidden;
 }
 
@@ -31,5 +29,14 @@ main {
 
 .card:hover {
   transform: scale(1.2);
-  z-index: 2;
+  z-index: 3;
+}
+
+.card-prew{
+
+  mask-image: linear-gradient(to right, rgba(20,20,20,0.8),rgba(20,20,20,0.1));
+}
+.card-prew-rev{
+
+  mask-image: linear-gradient(to right,rgba(20,20,20,0.1),rgba(20,20,20,0.8));
 }
